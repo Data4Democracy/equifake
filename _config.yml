@@ -1,0 +1,14 @@
+name: "Someone's name"
+title: "Equifake"
+description: "Words"
+
+url: https://equifaketemp.com
+baseurl: ""
+permalink: /blog/:year/:month/:day/:title
+
+markdown: kramdown
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+include: ["_pages"]
