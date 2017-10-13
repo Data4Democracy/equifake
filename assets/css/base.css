@@ -52,3 +52,13 @@ body {
   padding: 2.5rem 0 20rem 0;
   height: 10rem;
 }
+
+.interest:hover {
+  cursor: pointer;
+}
+
+.prop {
+  margin-top: 10px;
+  background-color: #eeeeee;
+  display: none;
+}
