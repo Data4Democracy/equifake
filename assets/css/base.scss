@@ -1,3 +1,9 @@
+---
+#
+---
+
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
 * {
   box-sizing: border-box;
 }
@@ -19,7 +25,7 @@ html {
 body {
   background: #eeeeee;
   color: #45555f;
-  font: 400 1.4rem/1.4rem Arial, sans-serif;
+  font: 1.4rem/1.4rem "Open Sans", Arial, sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -27,14 +33,14 @@ body {
 .header {
   font: 1rem #e1e1e1;
   background: #981e32;
-  display: block;
-  min-height: 4.5rem;
+  height: 4.5rem;
   padding: 1rem;
 }
 
 .logo,
 .logo:hover,
 .logo:active {
+  font: italic small-caps 1rem #e1e1e1;
   text-decoration: none;
   color: #e1e1e1;
 }
