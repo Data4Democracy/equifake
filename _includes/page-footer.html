@@ -4,12 +4,16 @@
         <div class="col-sm-4">
           Shortened logo
           Copyright / year/ trademark stuff
-          <div class="fb-share-button btn-share" 
-            data-href="{{ site.url }}{{ site.baseurl }}" 
-            data-layout="button_count">
-          </div>
+          <iframe style="border:none;overflow:hidden"
+            src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId"
+            width="59"
+            height="20"
+            scrolling="no"
+            frameborder="0"
+            allowTransparency="true">
+          </iframe>
           <div>
-            <a class="twitter-share-button btn-share"
+            <a class="twitter-share-button"
               href="https://twitter.com/share"
               data-size="large"
               data-text="{{ site.description }}"
