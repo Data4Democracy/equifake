@@ -8,8 +8,6 @@
   box-sizing: border-box;
 }
 
-/* sass here */
-
 html,
 body {
   height: 100%;
@@ -25,38 +23,31 @@ html {
 body {
   background: #eeeeee;
   color: #45555f;
-  font: 1.4rem/1.4rem "Open Sans", Arial, sans-serif;
+  font: 1.5rem/1.5rem "Open Sans", Arial, sans-serif;
   display: flex;
   flex-direction: column;
 }
 
 .header {
-  font: 1rem #e1e1e1;
+  color: #e1e1e1;
   background: #981e32;
-  height: 4.5rem;
+  min-height: 5rem;
+  max-height: 5rem;
   padding: 1rem;
 }
 
 .logo,
 .logo:hover,
 .logo:active {
-  font: italic small-caps 1rem #e1e1e1;
-  text-decoration: none;
+  font: bold 2rem/3rem "Open Sans", Arial, sans-serif;
   color: #e1e1e1;
+  text-decoration: none;
+  padding: 0;
+  margin: auto;
 }
 
 .container-main {
   flex: 1;
-}
-
-.footer {
-  background: #555;
-  color: #e1e1e1;
-  font-size: 1.1rem;
-  bottom: 0;
-  margin: 10rem 0 0 0;
-  padding: 2.5rem 0 20rem 0;
-  height: 10rem;
 }
 
 .interest:hover {
@@ -67,4 +58,22 @@ body {
   margin-top: 10px;
   background-color: #eeeeee;
   display: none;
+}
+
+.footer {
+  background: #555;
+  color: #e1e1e1;
+  font-size: 1.1rem;
+  bottom: 0;
+  margin: 10rem 0 0 0;
+  padding: 2.5rem 0 20rem 0;
+  height: 10rem;
+
+  a,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: #e1e1e1;
+    font-weight: bold;
+  }
 }

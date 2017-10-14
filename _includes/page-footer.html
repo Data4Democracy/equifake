@@ -1,35 +1,30 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 footer-sections">
-          <div class="footer-sections">
-            Shortened logo
+        <div class="col-sm-4">
+          Shortened logo
+          Copyright / year/ trademark stuff
+          <div class="fb-share-button btn-share" 
+            data-href="{{ site.url }}{{ site.baseurl }}" 
+            data-layout="button_count">
           </div>
-          <div class="footer-sections">
-            Copyright / year/ trademark stuff
-          </div>
-          <div class="footer-sections">
-            <div class="fb-share-button" 
-              data-href="{{site.url}}{{site.baseurl}}" 
-              data-layout="button_count">
-            </div>
-            <div>
-              <a class="twitter-share-button"
-                href="https://twitter.com/share"
-                data-size="large"
-                data-text="{{ site.description }}"
-                data-url="https://dev.twitter.com/web/tweet-button"
-                data-hashtags="fakenews,facebook">
-                Tweet
-              </a>
-            </div>
+          <div>
+            <a class="twitter-share-button btn-share"
+              href="https://twitter.com/share"
+              data-size="large"
+              data-text="{{ site.description }}"
+              data-url="https://dev.twitter.com/web/tweet-button"
+              data-hashtags="fakenews,facebook">
+              Tweet
+            </a>
           </div>
         </div>
-        <div class="col-sm-4 footer-sections">
-          Used to have privacy and terms
+        <div class="col-sm-4">
+          <p>Used to have privacy and terms</p>
+          <a href="{{ site.baseurl }}/about.html">About</a>
         </div>
-        <div class="col-sm-4 footer-sections">
-          <div>Blurred tagline</div>
+        <div class="col-sm-4">
+          <p>{{ site.description }}</p>
         </div>
       </div>
     </div>
