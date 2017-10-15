@@ -12,11 +12,8 @@ function toggleProp(selection) {
   // Select corresponding propaganda element
   let prop = document.getElementById(`prop-${num}`)
 
-  // Weird workaround for when element is first clicked
-  if (prop.style.display === '') {prop.style.display = 'none'}
-
   // Toggle display for element
-  if (prop.style.display === ('none')) {
+  if (prop.style.display === '' || prop.style.display === 'none') {
     prop.style.display = 'block'
   } else {
     prop.style.display = 'none'
