@@ -12,11 +12,19 @@ function toggleProp(selection) {
   // Select corresponding propaganda element
   let prop = document.getElementById(`prop-${num}`)
 
-  // Toggle display for element
-  if (prop.style.display === '' || prop.style.display === 'none') {
+  // Hide any prop elements that are already displayed
+  let propList = document.getElementsByClassName('prop')
+  for (p of propList) {
+    if (p.style.display === 'block' && p.id != prop.id) {
+      p.removeAttribute('style')
+    }
+  }
+
+  // Toggle display for clicked element
+  if (window.getComputedStyle(prop).getPropertyValue('display') === 'none') {
     prop.style.display = 'block'
   } else {
-    prop.style.display = 'none'
+    prop.removeAttribute('style')
   }
 }
 
