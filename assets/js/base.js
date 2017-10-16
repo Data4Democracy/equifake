@@ -14,7 +14,7 @@ function toggleProp(selection) {
 
   // Hide any prop elements that are already displayed
   let propList = document.getElementsByClassName('prop')
-  
+
   for (p of propList) {
     if (p.style.display === 'block' && p.id != propSelected.id) {
       p.removeAttribute('style')
@@ -22,7 +22,7 @@ function toggleProp(selection) {
   }
 
   // Toggle display for clicked element
-  if (window.getComputedStyle(prop).getPropertyValue('display') === 'none') {
+  if (window.getComputedStyle(propSelected).getPropertyValue('display') === 'none') {
     propSelected.style.display = 'block'
   } else {
     propSelected.removeAttribute('style')
