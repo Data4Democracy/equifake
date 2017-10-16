@@ -10,27 +10,28 @@ function toggleProp(selection) {
   let num = selection.target.id[selection.target.id.length - 1]
 
   // Select corresponding propaganda element
-  let prop = document.getElementById(`prop-${num}`)
+  let propSelected = document.getElementById(`prop-${num}`)
 
   // Hide any prop elements that are already displayed
   let propList = document.getElementsByClassName('prop')
+  
   for (p of propList) {
-    if (p.style.display === 'block' && p.id != prop.id) {
+    if (p.style.display === 'block' && p.id != propSelected.id) {
       p.removeAttribute('style')
     }
   }
 
   // Toggle display for clicked element
   if (window.getComputedStyle(prop).getPropertyValue('display') === 'none') {
-    prop.style.display = 'block'
+    propSelected.style.display = 'block'
   } else {
-    prop.removeAttribute('style')
+    propSelected.removeAttribute('style')
   }
 }
 
 // Add event listener for all interest elements
 const interests = document.getElementsByClassName('interest')
 
-for (let elem of interests) {
-  elem.addEventListener('click', toggleProp);
+for (let i of interests) {
+  i.addEventListener('click', toggleProp);
 }
