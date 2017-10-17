@@ -79,3 +79,26 @@ body {
     font-weight: bold;
   }
 }
+
+.btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: 10px solid white;
+    color: white;
+    background-color: #e7e7e7; color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    white-space: normal;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 20px;
+}
+
+.btn-group .button:hover {
+    background-color: black;
+    color: #e7e7e7
+}

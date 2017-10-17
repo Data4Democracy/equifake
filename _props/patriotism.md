@@ -1,8 +1,10 @@
 ---
 index: 2
 interest: "Being Patriotic"
+statement: "I own a gun"
 question: "Do you own a gun?"
 views: "51.1 million"
+message: "(Details of what makes the propaganda against gun supporters unique goes here)."
 ---
 
 Elaboration and stats
