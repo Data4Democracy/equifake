@@ -1,9 +1,9 @@
 name: "Someone's name"
-title: "Equifake"
+title: "Fakebook Exposed"
 description: "Words"
 
-url: https://data4democracy.github.io/equifake
-baseurl: ""
+url: https://data4democracy.github.io
+baseurl: "/equifake"
 permalink: /blog/:year/:month/:day/:title
 
 markdown: kramdown
@@ -12,3 +12,6 @@ sass:
   style: compressed
 
 include: ["_pages"]
+
+collections:
+  - props

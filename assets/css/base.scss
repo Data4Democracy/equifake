@@ -1,0 +1,81 @@
+---
+#
+---
+
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html {
+  font: 10px;
+}
+
+body {
+  background: #eeeeee;
+  color: #45555f;
+  font: 1.5rem/1.5rem "Open Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  color: #e1e1e1;
+  background: #981e32;
+  min-height: 5rem;
+  max-height: 5rem;
+  padding: 1rem;
+}
+
+.logo,
+.logo:hover,
+.logo:active {
+  font: bold 2rem/3rem "Open Sans", Arial, sans-serif;
+  color: #e1e1e1;
+  text-decoration: none;
+  padding: 0;
+  margin: auto;
+}
+
+.container-main {
+  flex: 1;
+}
+
+/* propaganda topics */
+
+.interest:hover {
+  cursor: pointer;
+}
+
+.prop {
+  margin-top: 10px;
+  background-color: #eeeeee;
+  display: none;
+}
+
+.footer {
+  background: #555;
+  color: #e1e1e1;
+  font-size: 1.1rem;
+  bottom: 0;
+  margin: 10rem 0 0 0;
+  padding: 2.5rem 0 20rem 0;
+  height: 10rem;
+
+  a,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: #e1e1e1;
+    font-weight: bold;
+  }
+}
