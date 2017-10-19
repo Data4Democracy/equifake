@@ -8,8 +8,8 @@ function toggleProp(selection) {
 
   // Hide any prop and interests elements that are already displayed or highlighted
   if (document.querySelector('.collapse-custom.on')) {
-    propCurrent = document.querySelector('.collapse.in')
-    interestCurrent = document.querySelector('.collapse-custom.on')
+    let propCurrent = document.querySelector('.collapse.in')
+    let interestCurrent = document.querySelector('.collapse-custom.on')
     propCurrent.classList.remove('in')
     interestCurrent.classList.remove('on')
   }
