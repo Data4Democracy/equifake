@@ -4,19 +4,43 @@
   <body>
     {% include page-header.html %}
     <div class="container container-main">
-      <div class="row">
-        <div class="row">
-          <div class="col-xs-12 col-md-offset-2 col-md-8">
-            <div>
-              <h2>{{ page.title }}</h2>
-                <div class="content">
-                  {{ content }}
-                </div>
-            </div>
+      <div>
+        <h2 class="title">{{ page.title }}</h2>
+          <div class="content">
+            <p>Were you exposed to Russian propaganda on Facebook? The answer might surprise you. According to the Washington Post content created by Russian operatives was shared on Facebook “hundreds of millions — perhaps many billions — of times.” It wasn’t just ads. Russian agents appear to have infiltrated several American social media platforms with viral content. </p>
+
+            <p>We’ve created a simple way for you to find out if you were exposed to Russian propaganda on Facebook. And unlike Equifax, we won’t make you sign away any rights to learn the truth. Look below and pick the button that applies to you.</p>
+
+            {{ content }}
           </div>
-        </div>
       </div>
     </div>
     {% include page-footer.html %}
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="{{ site.baseurl }}/assets/js/base.js" defer></script>
+
+      <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
   </body>
 </html>

@@ -35,3 +35,16 @@ const interests = document.getElementsByClassName('interest')
 for (let i of interests) {
   i.addEventListener('click', toggleProp);
 }
+
+
+$(function() {
+  $('.collapse-custom').on('click', function(evt) {
+    $('.collapse-custom').removeClass('on');
+    $('.collapse').removeClass('in');
+    $(this).addClass('on');
+
+    $($(this).data('target')).addClass('in');
+  });
+});
+
+

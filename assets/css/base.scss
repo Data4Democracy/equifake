@@ -31,23 +31,39 @@ body {
 .header {
   color: #e1e1e1;
   background: #981e32;
-  min-height: 5rem;
-  max-height: 5rem;
-  padding: 1rem;
+  padding: 1.5rem 3rem;
+}
+
+h2.title {
+  text-align: center;
+  font-size: 24px;
 }
 
 .logo,
 .logo:hover,
 .logo:active {
-  font: bold 2rem/3rem "Open Sans", Arial, sans-serif;
+  font: 2rem/3rem "Open Sans", Arial, sans-serif;
   color: #e1e1e1;
   text-decoration: none;
   padding: 0;
   margin: auto;
 }
 
+.logo strong {
+  color: #fff;
+}
+
 .container-main {
   flex: 1;
+}
+
+.container {
+  margin-top: 20px
+}
+
+.content {
+  max-width: 700px;
+  margin: 0px auto;
 }
 
 /* propaganda topics */
@@ -80,25 +96,69 @@ body {
   }
 }
 
-.btn-group .button {
-    background-color: #4CAF50; /* Green */
-    border: 10px solid white;
-    color: white;
-    background-color: #e7e7e7; color: black;
-    padding: 15px 32px;
+
+.button-wrap {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.collapse-custom {
+  display: inline-block;
+  max-width: 126px;
+  margin-left: 26px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.collapse-custom:hover {
+    background-color: #333;
+    color: #e7e7e7;
+    cursor: pointer;
+}
+
+.collapse-custom.on {
+  background-color: #333;
+    color: #e7e7e7;
+}
+
+
+
+#results {
+  margin-top: 30px;
+}
+
+/*
+.collapse-custom {
+    background-color: #e7e7e7; 
+    color: #333;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    cursor: pointer;
-    float: left;
-    white-space: normal;
-    width: 200px !important;
-    height: 200px !important;
     border-radius: 20px;
+    height: 100px;
 }
 
-.btn-group .button:hover {
-    background-color: black;
-    color: #e7e7e7
+.collapse-custom:hover {
+    background-color: #333;
+    color: #e7e7e7;
+    cursor: pointer;
 }
+
+.collapse-custom.on {
+  background-color: #333;
+    color: #e7e7e7;
+    font-weight: bold;
+}
+*/
+
+/*
+.collapse-custom p {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+}
+*/
