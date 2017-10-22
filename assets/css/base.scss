@@ -64,6 +64,7 @@ h2.title {
 .content {
   max-width: 700px;
   margin: 0px auto;
+  font-size: 16px;
 }
 
 /* propaganda topics */
@@ -84,8 +85,7 @@ h2.title {
   font-size: 1.1rem;
   bottom: 0;
   margin: 10rem 0 0 0;
-  padding: 2.5rem 0 20rem 0;
-  height: 10rem;
+  padding: 1rem 0 1rem 0;
 
   a,
   a:hover,
@@ -104,8 +104,8 @@ h2.title {
 
 .collapse-custom {
   display: inline-block;
-  max-width: 126px;
-  margin-left: 26px;
+  max-width: 138px;
+  margin-left: 18px;
   border: 2px solid #ddd;
   border-radius: 10px;
   padding: 12px;

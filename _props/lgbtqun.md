@@ -1,8 +1,10 @@
 ---
 index: 1
-interest: "LGBTQUN"
+interest: "LGBTQ rights"
 statement: "I support LGBTQ rights"
 question: "Do you identify as LGBTQ?"
-views: "a bazillion"
-message: "(Details of what makes the propaganda against LGBTQ supporters unique goes here)."
+views: "5.2 million"
+message: 'LGBTQ Facebook users were targeted by a page called "LGBTQUN."'
+called: "LGBTQUN"
+link: "http://www.businessinsider.com/reach-of-russian-facebook-propaganda-content-2017-10"
 ---

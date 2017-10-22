@@ -1,13 +1,10 @@
 ---
 index: 2
-interest: "Being Patriotic"
+interest: "Gun rights"
 statement: "I am a gun owner"
 question: "Do you own a gun?"
 views: "51.1 million"
-message: "(Details of what makes the propaganda against gun supporters unique goes here)."
+message: 'Gun rights supporters were targeted by a page called "Being Patriotic."'
+called: "Being Patriotic"
+link: "https://www.wsj.com/articles/five-things-to-know-about-hidden-russian-influence-on-facebook-twitter-google-1507201203"
 ---
-
-Elaboration and stats
-
-Possibly switch to 0-padding for index
-Come up with proper title and such in case we create a webpage from this
