@@ -33,7 +33,7 @@ permalink: /
 
       <p><a href="https://actionnetwork.org/forms/get-updates-from-facebook-exposed">Sign up for email updates about FacebookExposed</a>.</p>
 
-      <p>Share this message with friends - especially those who follow actively share posts related to LGBT, immigration, Black Lives Matter, gun rights and other divisive social issues.</p>
+      <p>Share this message with friends - especially those who follow or actively share posts related to LGBT, immigration, Black Lives Matter, gun rights and other divisive social issues.</p>
 
       <p><a class="twitter-share-button"
         href="https://twitter.com/intent/tweet?text=Was%20your%20Facebook%20conversation%20hacked%3F%20%23FBexposed">
