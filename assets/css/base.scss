@@ -39,6 +39,10 @@ h2.title {
   font-size: 24px;
 }
 
+p.lead {
+  font-size: 22px;
+}
+
 .logo,
 .logo:hover,
 .logo:active {
@@ -127,6 +131,44 @@ h2.title {
 
 #results {
   margin-top: 30px;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+.image-container-lead {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-container-lead img {
+  max-width: 40%;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 12px;
+  text-align: left;
+}
+
+.credits {
+  text-align: center;
+}
+
+.credits li {
+  margin-bottom: 20px;
+}
+
+.credits img {
+  max-width: 40%;
 }
 
 /*

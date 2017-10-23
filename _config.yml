@@ -1,8 +1,8 @@
-name: "Someone's name"
-title: "Fakebook Exposed"
-description: ""
+name: "FacebookExposed"
+title: "FacebookExposed"
+description: "FacebookExposed shows you how you were targeted by fake pages and Russian propaganda in 2016."
 
-url: https://data4democracy.github.io
+url: http://fbexposed.com
 permalink: /blog/:year/:month/:day/:title
 
 markdown: kramdown
