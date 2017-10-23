@@ -22,16 +22,16 @@ permalink: /
         <p class="caption">{{ prop.caption }}</p>
       </div>
       -->
-      <p class="lead">You were likely exposed to Russian propaganda on Facebook! {{ prop.called }}, just one of the fake pages related to {{ prop.interest }}, <a href="{{ prop.link }}">was viewed {{ prop.views }} from 2015 until August of this year</a>.</p>
+      <p class="lead">You were likely exposed to Russian propaganda on Facebook! {{ prop.called }}, just one of the fake pages related to {{ prop.interest }}, <a href="{{ prop.link }}" target="_blank">was viewed {{ prop.views }} from 2015 until August of this year</a>.</p>
       <hr>
       <p>Russia uses propaganda to divide Americans on contentious social issues. They capitalize on outrage and hot button issues to push Americans further to the extremes, further poisoning our discourse.</p>
       <p>Why hasn't Facebook notified you that you were targeted by Russian propaganda? Because the company's business model depends on people trusting that what they read on Facebook is accurate and reliable. They're worried about you losing trust in them. They’re worried that if they admit the extent of the problem, their business will be regulated. <strong>In other words, Facebook doesn't want you to know the truth</strong>. </p>
 
-      <p><a href="http://www.cnn.com/2017/10/09/opinions/social-media-platforms-spreading-disinformation-opinion-morgan/index.html">It's time for Silicon Valley social media companies to own up to their problems</a>, and fix their products.</p>
+      <p><a href="http://www.cnn.com/2017/10/09/opinions/social-media-platforms-spreading-disinformation-opinion-morgan/index.html" target="_blank">It's time for Silicon Valley social media companies to own up to their problems</a>, and fix their products.</p>
 
       <p>That's why it's up to us. <strong>Here's how you can get involved</strong>:</p>
 
-      <p><a href="https://actionnetwork.org/forms/get-updates-from-facebook-exposed">Sign up for email updates about FacebookExposed</a>.</p>
+      <p><a href="https://actionnetwork.org/forms/get-updates-from-facebook-exposed" target="_blank">Sign up for email updates about FacebookExposed</a>.</p>
 
       <p>Share this message with friends - especially those who follow or actively share posts related to LGBT, immigration, Black Lives Matter, gun rights and other divisive social issues.</p>
 
