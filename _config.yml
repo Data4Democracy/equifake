@@ -3,7 +3,7 @@ title: "Fakebook Exposed"
 description: ""
 
 url: https://data4democracy.github.io
-baseurl: "/equifake"
+baseurl: "/"
 permalink: /blog/:year/:month/:day/:title
 
 markdown: kramdown
