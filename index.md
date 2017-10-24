@@ -22,22 +22,12 @@ permalink: /
         <p class="caption">{{ prop.caption }}</p>
       </div>
       -->
-<<<<<<< HEAD
       <p class="lead">You were likely exposed to Russian propaganda on Facebook. {{ prop.called }}, just one of the fake pages related to {{ prop.interest }}, <a href="{{ prop.link }}">was viewed {{ prop.views }} times from 2015 until August of this year</a>.</p>
-=======
-      <p class="lead">You were likely exposed to Russian propaganda on Facebook! {{ prop.called }}, just one of the fake pages related to {{ prop.interest }}, <a href="{{ prop.link }}" target="_blank">was viewed {{ prop.views }} from 2015 until August of this year</a>.</p>
->>>>>>> 967082d6c1a02860f2fba39ba1aa775af83d2bdf
       <hr>
       <p>Russia has some of the best hackers in the world. But they're not just hacking our computer systems - they're hacking us. Manipulating us with fake ads, and spreading lies on social media to pit neighbor against neighbor.</p>
       <p>Facebook lied to us about what we were seeing and sharing. They withheld the truth about Russia trying to manipulate us. <a href="http://www.cnn.com/2017/10/09/opinions/social-media-platforms-spreading-disinformation-opinion-morgan/index.html">It's time for Silicon Valley social media companies to take responsibility for their problems</a>, fix their products, and tell us where this content is really coming from.</p>
 
-<<<<<<< HEAD
       <p><strong>Here's how you can get involved</strong>:</p>
-=======
-      <p><a href="http://www.cnn.com/2017/10/09/opinions/social-media-platforms-spreading-disinformation-opinion-morgan/index.html" target="_blank">It's time for Silicon Valley social media companies to own up to their problems</a>, and fix their products.</p>
-
-      <p>That's why it's up to us. <strong>Here's how you can get involved</strong>:</p>
->>>>>>> 967082d6c1a02860f2fba39ba1aa775af83d2bdf
 
       <p><a href="https://actionnetwork.org/forms/get-updates-from-facebook-exposed" target="_blank">Sign up for email updates about FacebookExposed</a>.</p>
 
