@@ -22,10 +22,10 @@ permalink: /
         <p class="caption">{{ prop.caption }}</p>
       </div>
       -->
-      <p class="lead">You were likely exposed to Russian propaganda on Facebook. {{ prop.called }}, just one of the fake pages related to {{ prop.interest }}, <a href="{{ prop.link }}">was viewed {{ prop.views }} times from 2015 until August of this year</a>.</p>
+      <p class="lead">You were likely exposed to Russian propaganda on Facebook. {{ prop.called }}, just one of the fake pages related to {{ prop.interest }}, <a href="{{ prop.link }}" target="_blank">was viewed {{ prop.views }} times from 2015 until August of this year</a>.</p>
       <hr>
       <p>Russia has some of the best hackers in the world. But they're not just hacking our computer systems - they're hacking us. Manipulating us with fake ads, and spreading lies on social media to pit neighbor against neighbor.</p>
-      <p>Facebook lied to us about what we were seeing and sharing. They withheld the truth about Russia trying to manipulate us. <a href="http://www.cnn.com/2017/10/09/opinions/social-media-platforms-spreading-disinformation-opinion-morgan/index.html">It's time for Silicon Valley social media companies to take responsibility for their problems</a>, fix their products, and tell us where this content is really coming from.</p>
+      <p>Facebook lied to us about what we were seeing and sharing. They withheld the truth about Russia trying to manipulate us. <a href="http://www.cnn.com/2017/10/09/opinions/social-media-platforms-spreading-disinformation-opinion-morgan/index.html" target="_blank">It's time for Silicon Valley social media companies to take responsibility for their problems</a>, fix their products, and tell us where this content is really coming from.</p>
 
       <p><strong>Here's how you can get involved</strong>:</p>
 
