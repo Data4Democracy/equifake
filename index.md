@@ -29,7 +29,7 @@ permalink: /
 
       <p><strong>Here's how you can get involved</strong>:</p>
 
-      <p><a href="https://www.change.org/p/facebook-tell-users-how-they-were-exposed-to-russian-propaganda" target="_blank">Sign the petition</a> demanding that Facebook tells its users how they were exposed to Russian propaganda.</p>
+      <p><strong><a href="https://www.change.org/p/facebook-tell-users-how-they-were-exposed-to-russian-propaganda" target="_blank">Sign the petition</a></strong> demanding that Facebook tells its users how they were exposed to Russian propaganda.</p>
 
       <p><a href="https://actionnetwork.org/forms/get-updates-from-facebook-exposed" target="_blank">Sign up for email updates about FacebookExposed</a>.</p>
 
