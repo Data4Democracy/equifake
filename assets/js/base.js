@@ -1,3 +1,4 @@
+/*
 // Toggle listener
 function toggleProp(selection) {
   // Identify which statement was clicked
@@ -27,9 +28,9 @@ const interests = document.getElementsByClassName('collapse-custom')
 for (let i of interests) {
   i.addEventListener('click', toggleProp);
 }
+*/
 
 
-/*
 $(function() {
   $('.collapse-custom').on('click', function(evt) {
     $('.collapse-custom').removeClass('on');
@@ -39,4 +40,3 @@ $(function() {
     $($(this).data('target')).addClass('in');
   });
 });
-*/
